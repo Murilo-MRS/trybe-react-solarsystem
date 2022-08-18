@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&display=swap') ;
 
 * {
   box-sizing: border-box;
@@ -6,32 +6,30 @@
   padding: 0;
 }
 
-#root {
-  width: 80%;
+body {
+  background-image: url('./images/background.png');
   margin: 0 auto;
+  width: 80%;
 }
 
-body {
-  background-image: url("./images/background.png");
-}
 .title {
-  text-align: center
+  text-align: center;
 }
 
 .title h1 {
-  color: #FFFFFF;
-  font-family: 'Epilogue';
+  color: white;
+  font-family: Epilogue , Arial , sans-serif;
   font-size: 100px;
   font-weight: 600;
   line-height: 150px;
 }
 
 .headlines {
-  color: #FFFFFF;
   background: rgba(24, 26, 37, 0.5);
-  border: 1px solid #FFFFFF;
+  border: 1px solid white;
   border-radius: 17px;
-  font-family: 'Epilogue';
+  color: white;
+  font-family: Epilogue , Arial , sans-serif;
   font-size: 50;
   font-weight: 500;
   line-height: 75px;
@@ -39,6 +37,7 @@ body {
   text-align: center;
   width: 90%;
 }
+
 .planets {
   display: flex;
   padding-top: 20px;
@@ -46,47 +45,47 @@ body {
 }
 
 .planet-card {
+  align-items: center;
   display: flex;
   flex-flow: column-reverse nowrap;
-  align-items: center;
   width: 20%;
 }
 
-.planet-card img{
-  width: 90%;
+.planet-card img {
   padding-top: 5px;
+  width: 90%;
 }
 
-.planet-card img:hover{
+.planet-card img:hover {
   width: 100%;
 }
 
 .planet-card p {
-  color: #FFFFFF;
-  font-family: 'Epilogue';
+  color: white;
+  font-family: Epilogue , Arial , sans-serif;
   font-size: 16;
   font-weight: 400;
   line-height: 75px;
 }
 
 .missions-container {
+  align-content: space-between;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   margin-top: 20px;
-  align-content: space-between;
 }
 
 .mission-card {
-  color: #FFFFFF;
+  background: rgba(24, 26, 37, 0.5);
+  border: 1px solid white;
+  border-radius: 17px;
+  color: white;
   display: flex;
   flex-flow: column nowrap;
-  background: rgba(24, 26, 37, 0.5);
-  border: 1px solid #FFFFFF;
-  border-radius: 17px;
   height: 280;
-  width: 354px;
   margin-top: 42px;
+  width: 354px;
 }
 
 hr {
@@ -94,7 +93,7 @@ hr {
 }
 
 .mission-name {
-  font-family: 'Epilogue';
+  font-family: Epilogue , Arial , sans-serif;
   font-size: 35px;
   font-weight: 700;
   line-height: 42px;
@@ -102,7 +101,7 @@ hr {
 }
 
 .mission-info {
-  font-family: 'Epilogue';
+  font-family: Epilogue , Arial , sans-serif;
   font-size: 30px;
   font-weight: 400;
   line-height: 36px;
