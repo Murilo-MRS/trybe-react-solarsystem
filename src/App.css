@@ -1,3 +1,110 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body {
+  background-image: url("./images/background.png");
+}
+.title {
+  text-align: center
+}
+
+.title h1 {
+  color: #FFFFFF;
+  font-family: 'Epilogue';
+  font-size: 100px;
+  font-weight: 600;
+  line-height: 150px;
+}
+
+.headlines {
+  color: #FFFFFF;
+  background: rgba(24, 26, 37, 0.5);
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+  font-family: 'Epilogue';
+  font-size: 50;
+  font-weight: 500;
+  line-height: 75px;
+  margin: 0 auto;
   text-align: center;
+  width: 90%;
+}
+.planets {
+  display: flex;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.planet-card {
+  display: flex;
+  flex-flow: column-reverse nowrap;
+  align-items: center;
+  width: 20%;
+}
+
+.planet-card img{
+  width: 90%;
+  padding-top: 5px;
+}
+
+.planet-card img:hover{
+  width: 100%;
+}
+
+.planet-card p {
+  color: #FFFFFF;
+  font-family: 'Epilogue';
+  font-size: 16;
+  font-weight: 400;
+  line-height: 75px;
+}
+
+.missions-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-content: space-between;
+}
+
+.mission-card {
+  color: #FFFFFF;
+  display: flex;
+  flex-flow: column nowrap;
+  background: rgba(24, 26, 37, 0.5);
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+  height: 280;
+  width: 354px;
+  margin-top: 42px;
+}
+
+hr {
+  width: 100%;
+}
+
+.mission-name {
+  font-family: 'Epilogue';
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 42px;
+  padding: 30px 33px;
+}
+
+.mission-info {
+  font-family: 'Epilogue';
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  padding: 30px 33px;
 }
